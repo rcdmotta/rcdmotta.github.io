@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Ricardo Motta Webpage</title>
+  <meta property="og:title" content="Ricardo Motta Webpage">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <script src="assets/js/theme.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Top bar: site title, menu (it turns into a drawer on phones) and the light/dark mode button -->
+  <header class="topbar">
+    <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M3 7h18M3 12h18M3 17h18" stroke="currentColor" stroke-width="2" fill="none" />
+      </svg>
+    </button>
+    <a class="site-title" href="./">Ricardo Motta Webpage</a>
+    <nav class="menu" id="menu" aria-label="Main menu">
+      <ul>
+        <li><a href="./" aria-current="page">Home</a></li>
+        <li><a href="research">Research</a></li>
+        <li><a href="talks-and-events">Talks and events</a></li>
+      </ul>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Switch between light and dark mode" title="Switch between light and dark mode">
+      <svg class="moon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" fill="none" />
+      </svg>
+      <svg class="sun" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2" fill="none" />
+        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+      </svg>
+    </button>
+    <div class="backdrop"></div>
+  </header>
+
+  <main>
+
+    <!-- Banner: to change the photo, change the file name below (leave out style="..." to use the default photo) -->
+    <section class="banner" style="background-image: url('assets/images/homepg.jpg')">
+      <div class="container">
+        <div class="row">
+          <div class="col col-12">
+            <div class="box">
+              <h1 class="banner-title">Ricardo Motta</h1>
+              <p class="banner-subtitle">(he/him)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About me (text on the left, photo on the right) -->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col col-6">
+            <div class="box">
+              <h2 class="center">About me</h2>
+              <p class="justify">I am a Ph.D. student at the <a href="https://www.bcamath.org/en" target="_blank"
+                  rel="noopener">Basque Center for Applied Mathematics</a>, under the supervision of <a
+                  href="https://sites.google.com/view/luzroncal" target="_blank" rel="noopener">Luz Roncal</a> and <a
+                  href="https://sites.google.com/view/mateus-sousa" target="_blank" rel="noopener">Mateus Sousa</a>.</p>
+              <p class="justify">I am also part of the <a href="https://sites.google.com/view/apdebilbao"
+                  target="_blank" rel="noopener">Analysis &amp; PDE</a> community in Bilbao. My research interests lie
+                in Harmonic Analysis, Partial Differential Equations, and Complex Analysis.</p>
+              <br>
+              <p>You can find my CV <a
+                  href="https://drive.google.com/file/d/1EZCPPfzmLNRPBYPL_T8WK_rPiMproRxJ/view?usp=sharing"
+                  target="_blank" rel="noopener">here</a>.</p>
+            </div>
+          </div>
+          <div class="col col-4">
+            <img class="photo" src="assets/images/profile.jpg" alt="Ricardo Motta">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider line -->
+    <section class="section divider-section">
+      <div class="container">
+        <div class="row">
+          <div class="col col-12">
+            <hr class="divider">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col col-10">
+            <div class="box center contact">
+              <h3>Contact Information</h3>
+              <p>📧 rmachado[at]bcamath[dot]org</p>
+              <p class="phone"><span class="invert-in-dark">📞</span> +34 946 567 842</p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+
+</html>

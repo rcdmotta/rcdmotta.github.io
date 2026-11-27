@@ -1,0 +1,4 @@
+# Files created by Windows and macOS that should not be published
+Thumbs.db
+desktop.ini
+.DS_Store
